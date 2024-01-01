@@ -16,8 +16,9 @@ def start_panel(_):
     return buttons
 
 
+
 def private_panel(_):
-    buttons =
+    buttons = [
         [
             InlineKeyboardButton(
                 text=_["S_B_3"],
@@ -31,7 +32,7 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL),
-            InlineKeyboardButton(text=_["S_B_7"], url=f"https://t.me/BRANDED_WORLD"
-        ),
+            InlineKeyboardButton(text=_["S_B_7"], url=config.UPSTREAM_REPO),
+        ],
     ]
     return buttons
